@@ -1,0 +1,20 @@
+10-01-1990,10
+10-02-1991,20
+10-03-1992,30
+10-04-1993,40
+10-05-1994,50
+10-06-1995,60
+10-07-1996,70
+10-08-1997,80
+10-09-1998,90
+10-10-1999,100
+
+hadoop fs -appendToFile max-temp /user/acadgild/hadoop/appended_file
+
+hadoop fs -moveFromLocal max-temp /user/acadgild/hadoop
+
+chmod o-r filea
+
+chmod a+rx fileb
+
+chmod g=rwx filec
